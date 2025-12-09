@@ -1,0 +1,19 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer circle - Presentation Layer -->
+  <circle cx="50" cy="50" r="45" fill="none" stroke="#66FCF1" stroke-width="3"/>
+
+  <!-- Middle circle - Domain Layer -->
+  <circle cx="50" cy="50" r="32" fill="none" stroke="#66FCF1" stroke-width="3"/>
+
+  <!-- Inner circle - Data Layer -->
+  <circle cx="50" cy="50" r="19" fill="none" stroke="#66FCF1" stroke-width="3"/>
+
+  <!-- Core circle -->
+  <circle cx="50" cy="50" r="8" fill="#66FCF1"/>
+
+  <!-- Arrows showing dependency direction (inward) -->
+  <path d="M 50 5 L 50 10 M 47 8 L 50 10 L 53 8" stroke="#66FCF1" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 95 50 L 90 50 M 92 47 L 90 50 L 92 53" stroke="#66FCF1" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 50 95 L 50 90 M 47 92 L 50 90 L 53 92" stroke="#66FCF1" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 5 50 L 10 50 M 8 47 L 10 50 L 8 53" stroke="#66FCF1" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>
